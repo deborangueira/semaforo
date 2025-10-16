@@ -6,21 +6,21 @@ void setup()
 
 }
 
-void loop()// os semáforos verde e vermelho ficarão acessos por 2seg a mais que o amarelo
+void loop()
 {
-  // Vermelho
+  // Vermelho 6seg
   digitalWrite(11, HIGH);
   delay(6000); 
   digitalWrite(11, LOW); 
-  // Amarelo
+  // Amarelo 2seg
   digitalWrite(12, HIGH);
   delay(2000); 
   digitalWrite(12, LOW); 
-  // Verde
+  // Verde 4seg
   digitalWrite(13, HIGH);
   delay(4000); 
   digitalWrite(13, LOW);
-  // Amarelo
+  // Amarelo 2seg
   digitalWrite(12, HIGH);
   delay(2000); 
   digitalWrite(12, LOW);
