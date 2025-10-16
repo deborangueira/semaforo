@@ -19,3 +19,5 @@ Com isso, foi só questão de ajustar o tempo definido na descrição da ativida
 3. Resistor 220 Ω
 
 ### Imagem do circuito (Tinkercad)
+
+![Circuito Semáforo](circuito_semaforo.png)
