@@ -10,9 +10,9 @@ Simulação do circuito de um semáforo utilizando LEDs e resistores com o tinke
 
 ### Relato
 
-Meu ponto de partida para tentar criar esse semáforo foi a lógica que aprendi na ponderada da semana 1. 
+Meu ponto de partida para desenvolver o semáforo foi a lógica que aprendi na ponderada da semana 1. 
 
-Com isso, minha primeira ação foi adicionar os três LEDs no protoboard do Tinkercad, onde utilizei os mesmos componentes: jumper, led e resistor.
+Com isso, minha primeira ação foi adicionar os três LEDs no circuito, cada um em suas respectivas portas e com os anodos e catodos conectados corretamente. Nesse momento, tentei usar apenas um jumper positivopara fazer a conexão entre arduino e protoboard, assim como é possível no
 Nesse momento, tentei utilizar apenas um fio positivo saindo do arduino e se conectando ao protoboard, mas logo percebi que isso não seria possível. Para os anodos, é necessário um fio para cada um já que ela é a conexão direta para a porta específica daquele LED. Diferentemente do que acontece ao conectar o cátodo, onde é possível usar apenas um único jumper negativo saindo da placa e conectando ao arduino.
 
 Após isso comecei a fazer testes com o temporizador para entender como eu poderia coordenar o acionamento dos LED's entre si. Nessas tentativas, percebi que não era necessário o "delay()" após desligar os leds, apenas definir o delay() associado ao tempo em que o led fica acesso.
@@ -30,6 +30,10 @@ Com isso, foi só questão de ajustar o tempo definido na descrição da ativida
 ### Circuito (Tinkercad)
 
 ![Circuito Semáforo](circuito_semaforo.png)
+
+### Montagem física completa
+
+![Simulação do Semáforo](semaforo.png)
 
 ### Vídeo demonstrativo
 
