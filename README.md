@@ -1,6 +1,13 @@
 # semáforo
 Simulação do circuito de um semáforo utilizando LEDs e resistores com o tinkercad. 
 
+### Conhecimentos
+
+- Configuração do ambiente de desenvolvimento (Arduino IDE);
+- Montagem de um circuito físico;
+- Compreenção do uso do setup() para definição de portas e Loop();
+- Uso de pinMode(), digitalWrite() e delay() para controlar o LED.
+
 ### Relato
 
 Meu ponto de partida para tentar criar esse semáforo foi a lógica que aprendi na ponderada da semana 1. 
@@ -14,13 +21,19 @@ Com isso, foi só questão de ajustar o tempo definido na descrição da ativida
 
 ### Componentes utilizados
 
-1. Jumper
-2. Led
-3. Resistor 220 Ω
+1. Arduino Uno
+2. Protoboard
+3. Jumpers
+4. Led off-board
+5. Resistor 220 Ω
 
 ### Circuito (Tinkercad)
 
 ![Circuito Semáforo](circuito_semaforo.png)
+
+### Vídeo demonstrativo
+
+[clique aqui](https://drive.google.com/file/d/1gP16g0ANQXL2RpP45KF5_peYxn4i9YI-/view?usp=sharing)
 
 ### Código
 
