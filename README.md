@@ -64,7 +64,7 @@ void loop()
 ### Circuito 
 
 ![Circuito Semáforo](circuito_semaforo.png)
-*Figura 1 – Protótipo do circuito montado no Tinkercard*
+*Figura 2 – Protótipo montado no Tinkercard*
 
 
 ### Conhecimentos
@@ -73,3 +73,9 @@ void loop()
 - Montagem de um circuito físico;
 - Compreenção do uso do setup() para definição de portas e Loop();
 - Uso de pinMode(), digitalWrite() e delay() para controlar o LED.
+
+### Avaliação de Pares
+
+- Primeiro avaliador:
+- Segundo avaliador:
+
