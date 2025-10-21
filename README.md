@@ -12,10 +12,9 @@ Simulação do circuito de um semáforo utilizando LEDs e resistores com o tinke
 
 Meu ponto de partida para desenvolver o semáforo foi a lógica que aprendi na ponderada da semana 1. 
 
-Com isso, minha primeira ação foi adicionar os três LEDs no circuito, cada um em suas respectivas portas e com os anodos e catodos conectados corretamente. Nesse momento, tentei usar apenas um jumper positivopara fazer a conexão entre arduino e protoboard, assim como é possível no
-Nesse momento, tentei utilizar apenas um fio positivo saindo do arduino e se conectando ao protoboard, mas logo percebi que isso não seria possível. Para os anodos, é necessário um fio para cada um já que ela é a conexão direta para a porta específica daquele LED. Diferentemente do que acontece ao conectar o cátodo, onde é possível usar apenas um único jumper negativo saindo da placa e conectando ao arduino.
+Com isso, minha primeira ação foi adicionar os três LEDs no circuito, cada um em suas respectivas portas e com os anodos e catodos conectados corretamente. Nesse momento, tentei usar apenas um jumper positivo para fazer a conexão entre arduino e protoboard, assim como é possível no jumper negativo. Mas logo percebi que isso não seria viável, pois cada LED precisa de um fio próprio, já que a conexão deve ser feita diretamente na porta correspondente de cada um.
 
-Após isso comecei a fazer testes com o temporizador para entender como eu poderia coordenar o acionamento dos LED's entre si. Nessas tentativas, percebi que não era necessário o "delay()" após desligar os leds, apenas definir o delay() associado ao tempo em que o led fica acesso.
+Após isso comecei a fazer testes com o temporizador para entender como eu poderia coordenar o acionamento dos LED's entre si. Nessas tentativas, percebi que não era necessário utilizar o delay() após desligá-los, bastando definir o delay() apenas para o tempo em que o LED permanece aceso.
 
 Com isso, foi só questão de ajustar o tempo definido na descrição da atividade no Adalove e iniciar a simulação!
 
