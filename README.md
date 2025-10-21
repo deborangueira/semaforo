@@ -1,12 +1,14 @@
 # semáforo
 Simulação do circuito de um semáforo utilizando LEDs e resistores com o tinkercad. 
 
-### Conhecimentos
+### Montagem física completa
 
-- Configuração do ambiente de desenvolvimento (Arduino IDE);
-- Montagem de um circuito físico;
-- Compreenção do uso do setup() para definição de portas e Loop();
-- Uso de pinMode(), digitalWrite() e delay() para controlar o LED.
+![Simulação do Semáforo](semaforo.png)
+*Figura 1 – Protoboard com LEDs conectados*
+
+### Vídeo demonstrativo
+
+[clique aqui](https://drive.google.com/file/d/1gP16g0ANQXL2RpP45KF5_peYxn4i9YI-/view?usp=sharing)
 
 ### Relato
 
@@ -25,20 +27,6 @@ Com isso, foi só questão de ajustar o tempo definido na descrição da ativida
 3. Jumpers
 4. Led off-board
 5. Resistor 220 Ω
-
-### Circuito 
-
-![Circuito Semáforo](circuito_semaforo.png)
-*Figura 1 – Protótipo do circuito montado no Tinkercard*
-
-### Montagem física completa
-
-![Simulação do Semáforo](semaforo.png)
-*Figura 1 – Protótipo do circuito montado no protoboard físico*
-
-### Vídeo demonstrativo
-
-[clique aqui](https://drive.google.com/file/d/1gP16g0ANQXL2RpP45KF5_peYxn4i9YI-/view?usp=sharing)
 
 ### Código
 
@@ -72,3 +60,16 @@ void loop()
   digitalWrite(12, LOW);
 }
 ```
+
+### Circuito 
+
+![Circuito Semáforo](circuito_semaforo.png)
+*Figura 1 – Protótipo do circuito montado no Tinkercard*
+
+
+### Conhecimentos
+
+- Configuração do ambiente de desenvolvimento (Arduino IDE);
+- Montagem de um circuito físico;
+- Compreenção do uso do setup() para definição de portas e Loop();
+- Uso de pinMode(), digitalWrite() e delay() para controlar o LED.
