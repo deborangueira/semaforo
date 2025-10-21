@@ -26,13 +26,15 @@ Com isso, foi só questão de ajustar o tempo definido na descrição da ativida
 4. Led off-board
 5. Resistor 220 Ω
 
-### Circuito (Tinkercad)
+### Circuito 
 
 ![Circuito Semáforo](circuito_semaforo.png)
+*Figura 1 – Protótipo do circuito montado no Tinkercard*
 
 ### Montagem física completa
 
 ![Simulação do Semáforo](semaforo.png)
+*Figura 1 – Protótipo do circuito montado no protoboard físico*
 
 ### Vídeo demonstrativo
 
