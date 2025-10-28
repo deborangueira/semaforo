@@ -8,7 +8,7 @@ Simulação do circuito de um semáforo utilizando LEDs e resistores com o tinke
 
 ### Vídeo demonstrativo
 
-[clique aqui](https://drive.google.com/file/d/1gP16g0ANQXL2RpP45KF5_peYxn4i9YI-/view?usp=sharing)
+[clique aqui](https://drive.google.com/file/d/1yHslggReEvhdNuMBhiQXQbJZmXflhr65/view?usp=sharing)
 
 ### Relato
 
