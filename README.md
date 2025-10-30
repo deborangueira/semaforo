@@ -1,4 +1,4 @@
-# semáforo
+# 🚦 Semáforo Offline
 Simulação do circuito de um semáforo utilizando LEDs e resistores com o tinkercad. 
 
 ### Montagem física completa
@@ -8,7 +8,7 @@ Simulação do circuito de um semáforo utilizando LEDs e resistores com o tinke
 
 ### Vídeo demonstrativo
 
-[clique aqui](https://drive.google.com/file/d/1yHslggReEvhdNuMBhiQXQbJZmXflhr65/view?usp=sharing)
+[clique aqui](https://drive.google.com/drive/folders/1DAX-4LIDySAWu2KYjuuTihk8yWYYf-WJ?usp=sharing)
 
 ### Relato
 
@@ -73,9 +73,4 @@ void loop()
 - Montagem de um circuito físico;
 - Compreenção do uso do setup() para definição de portas e Loop();
 - Uso de pinMode(), digitalWrite() e delay() para controlar o LED.
-
-### Avaliação de Pares
-
-- Primeiro avaliador:
-- Segundo avaliador:
 
