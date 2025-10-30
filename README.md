@@ -28,7 +28,7 @@ Com isso, foi só questão de ajustar o tempo definido na descrição da ativida
 4. Led off-board
 5. Resistor 220 Ω
 
-### Código
+### Primeira versão do código
 
 ```C
 
@@ -59,6 +59,51 @@ void loop()
   delay(2000); 
   digitalWrite(12, LOW);
 }
+```
+
+### Segunda versão do código 
+
+Nessa segunda versão, eu adicionei conceitos de **ponteiros** e **POO**. Fiz essa refatoração por motivos pedagógicos a fim de reforçar conceitos de abstração e endereçamento de memória.
+
+```C
+// Ordem: [vermelho, amarelo, verde]
+const int pinos[3] = {11, 12, 13};
+
+class Semaforo {
+  const int* pins; // ponteiro para o array de pinos
+public:
+  Semaforo(const int* p) : pins(p) {}
+
+  void begin() {
+    for (int i = 0; i < 3; i++) {
+      pinMode(*(pins + i), OUTPUT);   // usando aritmética de ponteiros
+    }
+  }
+
+  void ligar(int idx, unsigned long ms) {
+    digitalWrite(*(pins + idx), HIGH);
+    delay(ms);
+    digitalWrite(*(pins + idx), LOW);
+  }
+
+  void ciclo() {
+    ligar(0, 6000); // vermelho
+    ligar(1, 2000); // amarelo
+    ligar(2, 4000); // verde
+    ligar(1, 2000); // amarelo
+  }
+};
+
+Semaforo semaforo(pinos);
+
+void setup() {
+  semaforo.begin();
+}
+
+void loop() {
+  semaforo.ciclo();
+}
+
 ```
 
 ### Circuito 
